@@ -1,4 +1,80 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: #708090;
+}
+
+h1 {
+  color: #faf3e0;
+}
+
+table, thead {
+  background-color: #faf3e0;
+  text-align: left;
+  width: 100%;
+  border: white;
+  border-style: solid;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th, td {
+  padding-right: 10px;
+}
+
+button {
+  background-color: #708090;
+  border-radius: 5%;
+  border: none;
+  color: #faf3e0;
+  padding: 10px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+#load-data {
+  background-color: #faf3e0;
+  border-radius: 5%;
+  border: none;
+  color: #708090;
+  padding: 10px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+button:hover {
+  background-color: #5f6c7a;
+}
+
+#load-data:hover {
+  background-color: #c2bdae;
+}
+
+.flexing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  background-color: #faf3e0;
+  border: white;
+  border-radius: 5%;
+  text-align: right;
+  padding: 10px;
+  border-style: solid;
+  display: inline-block;
+}
+
+.form label {
+  padding-right: 5px;
 }
